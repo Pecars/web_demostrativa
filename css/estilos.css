@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@600&display=swap');
+#0048CD Azul,
+para los contenedores #0795FF azul claro,
+para cosas puntuales,
+cuadros etc #75C7FB celeste,
+para el fondo #E9E9E9 gris claro para las letras #FFD147 amarillos para énfasis puntual etc * {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+/****************************************************
+    ESTILOS FORMULARIO INGRESO
+****************************************************/
+
+.contenedor-login-cierre {
+    background-color: #E9E9E9;
+    height: 97vh;
+    /*margin-top: -700px;*/
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    transform: translate(45%, 15%);
+    background-color: #FFF;
+}
+
+.imagen {
+    width: 35%;
+    position: absolute;
+    left: 0;
+    height: 400px;
+    background-image: linear-gradient(120deg, #0048CD, #75C7Ff);
+}
+
+#formulario {
+    width: 63%;
+    position: absolute;
+    right: 0;
+    font-family: 'Muli', sans-serif;
+}
+
+#titulo-login h1 {
+    color: #000;
+}
+
+.texto {
+    width: 80%;
+    border: none;
+    border-bottom: solid 1px #000;
+    border-radius: 5px;
+    height: 20px;
+    margin: 25px 0;
+    text-align: left;
+    font-size: 18px;
+}
+
+.btn-ingreso {
+    margin-top: 30px;
+    width: 80%;
+    height: 45px;
+    border: none;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(120deg, #0795FF, #75C7FB);
+}
+
+.btn-ingreso:hover {
+    background-image: linear-gradient(120deg, #0048CD, #75C7FB);
+    transform: scale(1.010);
+}
+
+@media (min-width: 937px) {}
+
+@media (max-width: 936px) and (min-width: 601px) {
+    #login {
+        width: 70%;
+        transform: translate(23%, 15%);
+    }
+}
+
+@media (max-width: 600px) {
+    #login {
+        width: 90%;
+        transform: translate(6%, 15%);
+    }
+}
+
+@media (max-width: 480px) {
+    #login {
+        width: 98%;
+        transform: translate(1%, 15%);
+    }
+}
+
+
+/****************************************************
+    FIN ESTILOS FORMULARIO INGRESO
+****************************************************/
+
+
+/****************************************************
+    ESTILOS PAGINA DE CIERRE
+****************************************************/
+
+.cierre {
+    width: 60%;
+    height: 400px;
+    transform: translate(30%, 25%);
+    background-image: linear-gradient(120deg, #0048CD, #75C7FB);
+    font-family: 'Muli', sans-serif;
+    padding-top: 20px;
+}
+
+#cierre-texto {
+    text-align: center;
+    background-color: #E9E9E9;
+    width: 80%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    transform: translate(0, 7%);
+}
+
+#cierre-texto h1 {
+    padding: 25px 0;
+}
+
+#cierre-texto p {
+    font-size: 20px;
+}
+
+.btn-reingreso {
+    margin-top: 25px;
+    width: 60%;
+    height: 45px;
+    border: none;
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    background-image: linear-gradient(120deg, #0795FF, #75C7FB);
+}
+
+.btn-reingreso:hover {
+    background-image: linear-gradient(120deg, #0048CD, #75C7FB);
+    transform: scale(1.010);
+}
+
+@media (min-width: 937px) {}
+
+@media (max-width: 936px) and (min-width: 601px) {
+    .cierre {
+        width: 83%;
+        transform: translate(12%, 25%);
+    }
+}
+
+@media (max-width: 600px) {
+    .cierre {
+        width: 90%;
+        transform: translate(5%, 25%);
+    }
+    #cierre-texto h1 {
+        padding: 30px 0;
+        font-size: 30px;
+    }
+    #cierre-texto p {
+        font-size: 18px;
+    }
+    .btn-reingreso {
+        margin-top: 30px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cierre {
+        width: 98%;
+        transform: translate(1%, 25%);
+    }
+    #cierre-texto h1 {
+        padding: 30px 0 20px 0;
+        font-size: 28px;
+    }
+    #cierre-texto p {
+        font-size: 16px;
+    }
+    .btn-reingreso {
+        margin-top: 30px;
+        width: 70%;
+    }
+}
+
+
+/****************************************************
+   FIN ESTILOS PAGINA DE CIERRE
+****************************************************/
